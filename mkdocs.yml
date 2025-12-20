@@ -1,0 +1,43 @@
+site_name: Nodifyr Docs
+site_url: https://docs.nodifyr.io/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - What is Nodifyr?: start-here/what-is-nodifyr.md
+      - Roadmap: start-here/roadmap.md
+      - Repo Map: start-here/repo-map.md
+  - Architecture:
+      - System Overview: architecture/system-overview.md
+      - Hub vs Node: architecture/hub-vs-node.md
+  - Interfaces:
+      - Module Port Spec: interfaces/module-port-spec.md
+      - Accessory ID Spec: interfaces/accessory-id-spec.md
+      - Electrical Rules: interfaces/electrical-rules.md
+  - Boards:
+      - Nodifyr S3 Dev Board:
+          - Rev A Overview: boards/nodifyr-s3-devboard/revA/overview.md
+          - Power Tree: boards/nodifyr-s3-devboard/revA/power-tree.md
+          - USB-C: boards/nodifyr-s3-devboard/revA/usb-c.md
+          - Pinmap: boards/nodifyr-s3-devboard/revA/pinmap.md
+          - Known Issues: boards/nodifyr-s3-devboard/revA/known-issues.md
+  - Engineering:
+      - Decisions (ADRs): engineering/decisions/adr-0001-esp32-s3-choice.md
+  - Testing:
+      - Bring-up Checklist: testing/bringup-checklist.md
+      - Measurements: testing/measurements.md
+  - Devlog:
+      - 2025-12-19: devlog/2025-12-19-revA-schematic-checkpoint.md
