@@ -1,0 +1,47 @@
+/* Nodifyr: dark, sleek, minimal */
+
+:root {
+  --md-default-fg-color: rgba(255, 255, 255, 0.92);
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.70);
+  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.55);
+
+  --md-default-bg-color: #0b0c0f;
+  --md-code-bg-color: #11131a;
+
+  --md-typeset-a-color: rgba(255, 255, 255, 0.88);
+}
+
+/* Make the header/nav feel tighter */
+.md-header {
+  backdrop-filter: blur(10px);
+  background: rgba(11, 12, 15, 0.85) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Sidebar polish */
+.md-sidebar {
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Content area width: more modern reading */
+.md-grid {
+  max-width: 1200px;
+}
+
+/* Links: subtle */
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks: sleek */
+.md-typeset pre > code {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+}
+
+/* Callouts (admonitions): minimal */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

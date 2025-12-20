@@ -1,18 +1,55 @@
 site_name: Nodifyr Docs
 site_url: https://docs.nodifyr.io/
 
+repo_url: https://github.com/Bushido3403/nodifyr
+repo_name: Bushido3403/nodifyr
+
 theme:
   name: material
+  language: en
+#   logo: assets/logo.svg          # optional (add later)
+#   favicon: assets/favicon.png    # optional (add later)
+
+  palette:
+    # Dark mode default (sleek)
+    - scheme: slate
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Light mode option (still clean)
+    - scheme: default
+      primary: black
+      accent: grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
   features:
     - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
+    - toc.follow
     - content.code.copy
+    - content.code.annotate
     - search.suggest
     - search.highlight
+    - search.share
 
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
