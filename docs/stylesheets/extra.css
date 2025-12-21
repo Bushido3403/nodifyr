@@ -39,3 +39,11 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
+
+/* Override Material's slate scheme vars (more specific than :root) */
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color: rgba(255, 255, 255, 0.92);
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.80);
+  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.70);
+  --md-typeset-color: rgba(255, 255, 255, 0.92);
+}
