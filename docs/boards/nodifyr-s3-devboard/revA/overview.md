@@ -54,7 +54,7 @@ All updates and decisions are tracked in the devlog and ADRs.
 
 ---
 
-## Schematic (Rev A)
+## Schematics and Files
 
 Preview of the current schematic.  
 For full resolution, see the PDF.
@@ -63,4 +63,6 @@ For full resolution, see the PDF.
 
 ![Rev A Schematic Preview](nodifyr-s3-revA-schematic.png)
 
-> Note: This schematic is subject to change as Rev A evolves.
+[Board Source Files](https://github.com/Bushido3403/nodifyr-hardware/tree/main/boards/S3-Dev-RevA)
+
+> Note: This is subject to change as Rev A evolves.
