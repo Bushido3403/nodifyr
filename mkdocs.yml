@@ -6,6 +6,8 @@ repo_name: Bushido3403/nodifyr
 
 theme:
   name: material
+  features:
+    - content.images.zoom
   language: en
   logo: assets/logo.png
   favicon: assets/favicon.png
@@ -68,7 +70,6 @@ nav:
       - Nodifyr S3 Dev Board:
           - Rev A Overview: boards/nodifyr-s3-devboard/revA/overview.md
           - Power Tree: boards/nodifyr-s3-devboard/revA/power-tree.md
-          - USB-C: boards/nodifyr-s3-devboard/revA/usb-c.md
           - Pinmap: boards/nodifyr-s3-devboard/revA/pinmap.md
           - Known Issues: boards/nodifyr-s3-devboard/revA/known-issues.md
   - Engineering:
