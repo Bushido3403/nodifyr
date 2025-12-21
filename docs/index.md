@@ -49,4 +49,4 @@ Where things are unfinished, uncertain, or untested, I will do my best to state 
 
 - Email: `kyle@nodifyr.io`
 - GitHub: [Bushido3403](https://github.com/Bushido3403/)
-- Instagram: `@nodifyr`
+- Instagram: [`@nodifyr_io`](https://www.instagram.com/nodifyr_io/)
