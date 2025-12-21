@@ -17,7 +17,7 @@ A lot of IoT projects fail quietly for the same reasons:
 - firmware grows organically without structure
 - revisions overwrite history instead of explaining it
 - knowledge lives in people's heads instead of artifacts
-  - this leads to expensive proprietary system engineers which companies struggle to maintain!
+  \-this leads to expensive proprietary system engineers which companies struggle to maintain!
 
 Nodifyr exists to explore a different approach:
 **Bring industry-level IoT hardware and firmware knowledge & systems to the public.**
