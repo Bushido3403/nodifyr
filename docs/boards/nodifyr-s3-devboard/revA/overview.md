@@ -28,12 +28,12 @@ It is not intended to be a finalized or production-optimized board.
     - Single-cell Li-Po battery
 
 - **System Voltage:**  
-  - 3.3 V regulated rail for MCU and peripherals
+    - 3.3 V regulated rail for MCU and peripherals
 
 - **Design Focus:**  
-  - modular interfaces  
-  - clear power domains  
-  - assembly-aware component selection
+    - modular interfaces
+    - clear power domains
+    - assembly-aware component selection
 
 ---
 
@@ -51,3 +51,16 @@ Documentation for each subsystem will evolve in the sections below.
 
 This revision is expected to change as design assumptions are validated or disproven.  
 All updates and decisions are tracked in the devlog and ADRs.
+
+---
+
+## Schematic (Rev A)
+
+Preview of the current schematic.  
+For full resolution, see the PDF.
+
+[View full schematic PDF](nodifyr-s3-revA-schematic.pdf)
+
+![Rev A Schematic Preview](nodifyr-s3-revA-schematic.png)
+
+> Note: This schematic is subject to change as Rev A evolves.
