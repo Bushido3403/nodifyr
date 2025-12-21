@@ -6,8 +6,6 @@ repo_name: Bushido3403/nodifyr
 
 theme:
   name: material
-  features:
-    - content.images.zoom
   language: en
   logo: assets/logo.png
   favicon: assets/favicon.png
@@ -43,12 +41,14 @@ theme:
     - toc.follow
     - content.code.copy
     - content.code.annotate
+    - content.images.zoom
     - search.suggest
     - search.highlight
     - search.share
 
 plugins:
   - search
+  - glightbox
 
 extra_css:
   - stylesheets/extra.css

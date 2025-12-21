@@ -1,3 +1,4 @@
+``` mermaid
 flowchart TD
   %% Sources
   USB[USB-C 5V (VBUS)] --> DUSB[Ideal Diode (USB path)]
@@ -16,3 +17,4 @@ flowchart TD
   V3V3 --> MCU[ESP32-S3 Module]
   V3V3 --> PERIPH[Peripherals / Headers]
   V3V3 --> ACC[Accessories]
+```
