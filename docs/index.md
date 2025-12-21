@@ -28,10 +28,12 @@ From there, you can explore:
 
 I made this website using **Material for MkDocs** and it's built directly from Markdown files in my `nodifyr` [GitHub repository](https://github.com/Bushido3403/nodifyr).
 
-My goal is durability and accuracy:
+My goal in documentation is durability and accuracy:
+
 - documentation lives alongside the project itself
 - changes are versioned
 - assumptions and unknowns are tracked for future reference
+- everything lives as context for future development
 
 This page is intended to be a source of truth for the project, not a marketing page.
 
