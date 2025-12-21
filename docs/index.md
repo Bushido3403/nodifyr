@@ -48,5 +48,5 @@ Where things are unfinished, uncertain, or untested, I will do my best to state 
 ## Contact
 
 - Email: `kyle@nodifyr.io`
-- GitHub: `https://github.com/Bushido3403`
+- GitHub: [Bushido3403](https://github.com/Bushido3403/)
 - Instagram: `@nodifyr`
