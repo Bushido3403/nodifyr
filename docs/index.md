@@ -1,6 +1,50 @@
-# start working on this page tomorrow
-introduce the project and whatnot and tell the world Nodifyr's purpose :)
+# Nodifyr Docs
 
-I removed the ai slop before it got scraped by google 😻✌️
+---
 
-end docs
+## Welcome
+
+This site contains the official documentation for **Nodifyr**, an ongoing open-source IoT ecosystem project developed by me, Kyle Buchanan.
+
+I fully instend to develop Nodifyr as open-source as I can, and this documentation serves as a living record of its architecture, design decisions, hardware revisions, experiments, and lessons learned over time.
+
+Keep in mind, this is not a finished product (yet), it's a transparent build process.
+
+## Where should you start?
+
+If you're new, start with **What is Nodifyr?**  
+That page explains my motivation behind the project, its long-term direction, and the kind of problems I aim to solve.
+
+From there, you can explore:
+- system architecture and interfaces
+- board-specific documentation and revisions
+- design decisions and tradeoffs
+- measurements, testing notes, and known issues I discover
+- devlogs on my ongoing progress
+
+---
+
+## About this site
+
+I made this website using **Material for MkDocs** and it's built directly from Markdown files in my `nodifyr` GitHub repository.
+
+My goal is durability and accuracy:
+- documentation lives alongside the project itself
+- changes are versioned
+- assumptions and unknowns are tracked for future reference
+
+This page is intended to be a source of truth for the project, not a marketing page.
+
+---
+
+### P.S.
+
+Where things are unfinished, uncertain, or untested, I will do my best to state that explicitly.
+
+---
+
+## Contact
+
+- Email: `kyle@nodifyr.io`
+- GitHub: `https://github.com/Bushido3403`
+- Instagram: `@nodifyr`
