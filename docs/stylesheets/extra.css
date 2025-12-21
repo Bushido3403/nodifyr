@@ -1,90 +1,41 @@
-/* Nodifyr: dark, sleek, minimal (higher contrast, clearer hierarchy) */
+/* Nodifyr */
 
 :root {
-  /* Core foreground text */
-  --md-default-fg-color: rgba(255, 255, 255, 0.95);
-  --md-default-fg-color--light: rgba(255, 255, 255, 0.78);
-  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.62);
+  --md-default-fg-color: rgba(255, 255, 255, 0.92);
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.70);
+  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.70);
 
-  /* Backgrounds */
   --md-default-bg-color: #0b0c0f;
   --md-code-bg-color: #11131a;
 
-  /* Links */
-  --md-typeset-a-color: rgba(255, 255, 255, 0.92);
-
-  /* BIG one: tone down “muted” text (nav, captions, toc, etc.) */
-  --md-default-fg-color--muted: rgba(255, 255, 255, 0.68);
-
-  /* “Chrome” separators (subtle but visible) */
-  --md-default-fg-color--faint: rgba(255, 255, 255, 0.10);
+  --md-typeset-a-color: rgba(255, 255, 255, 0.88);
 }
 
-/* Header: slightly more solid for contrast */
 .md-header {
   backdrop-filter: blur(10px);
-  background: rgba(8, 9, 12, 0.92) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(11, 12, 15, 0.85) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* Sidebar: separate it from the main content */
 .md-sidebar {
-  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* Make the left nav area feel distinct (Material uses this wrapper) */
-.md-sidebar__scrollwrap {
-  background: #0e1016;
-}
-
-/* Main content area width: modern reading */
 .md-grid {
   max-width: 1200px;
 }
 
-/* Headings: brighter + slightly heavier (hierarchy pop) */
-.md-typeset h1,
-.md-typeset h2,
-.md-typeset h3 {
-  color: rgba(255, 255, 255, 0.98);
-  font-weight: 600;
-}
-
-/* Subtle section dividers */
-.md-typeset h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-  padding-bottom: 0.25em;
-}
-
-/* Links: subtle but clear */
-.md-typeset a {
-  text-decoration-color: rgba(255, 255, 255, 0.22);
-}
 .md-typeset a:hover {
-  text-decoration-color: rgba(255, 255, 255, 0.45);
   text-decoration: underline;
 }
 
-/* Code blocks: sleek */
 .md-typeset pre > code {
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 12px;
 }
 
-/* Inline code: slightly stronger */
-.md-typeset code {
-  border-radius: 8px;
-}
-
-/* Callouts (admonitions): minimal */
 .md-typeset .admonition,
 .md-typeset details {
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-}
-
-/* Optional: TOC clarity (right side) */
-.md-nav--secondary .md-nav__title,
-.md-nav--secondary .md-nav__link {
-  color: rgba(255, 255, 255, 0.80);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
