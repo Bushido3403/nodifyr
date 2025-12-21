@@ -1,4 +1,4 @@
-# 2025-12-20 — Rev A Schematic Checkpoint (ESP32-S3 Dev Board)
+# 2025-12-20
 
 This entry marks the first major checkpoint for **Revision A** of the Nodifyr ESP32-S3 development board.
 
@@ -61,8 +61,8 @@ The design is still in an architectural phase.
 
 ## TODOs
 
-- Finalize **GPIO allocation and pin mapping**
-- Define and standardize **external connectors**
+- Finalize GPIO allocation and pin mapping
+- Define and standardize external connectors
   - screw terminals
   - waterproof multi-pin connectors
 - Decide on:

@@ -44,10 +44,6 @@ Some ideas will be wrong at their beginning.
 
 Those outcomes are expected, and documented.
 
-I can't work on a project at this scale if I expect perfection from myself, so my philosphy must become:
-
-**This is a living system. I will iterate openly, document honestly, and improve continuously.**
-
 ---
 
 ## Core ideas
@@ -114,6 +110,7 @@ It's also for *future me*, when today's decisions no longer feel obvious.
 Nodifyr is in active development.
 
 At the time of writing:
+
 - hardware design for the first dev board is in early revision stages
 - firmware is mostly flow logic (diagrams coming soon!)
 - interfaces are being defined
@@ -125,8 +122,9 @@ Nothing here should be treated as final.
 
 ## Where to go next
 
-Currently the only documentation page I have filled out is the current progress on the S3 Dev Board:
-`devlog/2025-12-20-revA-schematic-checkpoint.md`
+Currently the only documentation page I have filled out is the latest devlog:
+
+[2025-12-20](https://docs.nodifyr.io/devlog/2025-12-20-revA-schematic-checkpoint/)
 
 This project will change.  
 The documentation will change with it :)
