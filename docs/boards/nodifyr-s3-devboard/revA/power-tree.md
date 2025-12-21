@@ -18,3 +18,5 @@ BUCK --> V3V3["3V3 Rail"]
 V3V3 --> MCU["ESP32-S3 Module"]
 V3V3 --> PERIPH["Peripherals / Headers"]
 ```
+
+![Full Power Schematics](power_tree.png)
