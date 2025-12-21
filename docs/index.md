@@ -6,7 +6,7 @@
 
 This site contains the official documentation for **Nodifyr**, an ongoing open-source IoT ecosystem project developed by me, Kyle Buchanan.
 
-I fully instend to develop Nodifyr as open-source as I can, and this documentation serves as a living record of its architecture, design decisions, hardware revisions, experiments, and lessons learned over time.
+I fully intend to develop Nodifyr as open-source as I can, and this documentation serves as a living record of its architecture, design decisions, hardware revisions, experiments, and lessons learned over time.
 
 Keep in mind, this is not a finished product (yet), it's a transparent build process.
 
