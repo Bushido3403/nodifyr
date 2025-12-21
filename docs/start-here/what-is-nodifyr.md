@@ -41,8 +41,11 @@ Nodifyr exists to explore a different approach:
 - a single board or device
 
 Some ideas will be wrong at their beginning.
+
 Those outcomes are expected, and documented.
-I can't work on a project at this scale if I expect perfection from myself, so my philosphy becomes:
+
+I can't work on a project at this scale if I expect perfection from myself, so my philosphy must become:
+
 **This is a living system. I will iterate openly, document honestly, and improve continuously.**
 
 ---
@@ -51,17 +54,13 @@ I can't work on a project at this scale if I expect perfection from myself, so m
 
 While the implementation is still evolving, Nodifyr is guided by a few consistent principles:
 
-- **Modularity**  
-  Boards, nodes, and accessories should have clear boundaries and defined interfaces.
+- **Modularity** - Boards, nodes, and accessories should have clear boundaries and defined interfaces.
 
-- **Transparency**  
-  Design decisions, tradeoffs, and mistakes are recorded rather than hidden.
+- **Transparency** - Design decisions, tradeoffs, and mistakes are recorded rather than hidden.
 
-- **Longevity**  
-  Designs should be understandable months or years later, even by someone new.
+- **Longevity** - Designs should be understandable months or years later, even by someone new.
 
-- **Real constraints**  
-  Components are chosen with manufacturing, sourcing, and assembly in mind.
+- **Real constraints** - Components are chosen with manufacturing, sourcing, and assembly in mind.
 
 ---
 
@@ -69,17 +68,13 @@ While the implementation is still evolving, Nodifyr is guided by a few consisten
 
 Nodifyr is split into multiple repositories and documentation sections, roughly along these lines:
 
-- **[Hardware](https://github.com/Bushido3403/nodifyr-hardware)**
-  Board designs, schematics, revisions, and electrical rules.
+- **[Hardware](https://github.com/Bushido3403/nodifyr-hardware)** - Board designs, schematics, revisions, and electrical rules.
 
-- **[Firmware](https://github.com/Bushido3403/nodifyr-firmware)**
-  Embedded code, system behavior, and on-chip logic.
+- **[Firmware](https://github.com/Bushido3403/nodifyr-firmware)** - Embedded code, system behavior, and on-chip logic.
 
-- **[Software](https://github.com/Bushido3403/nodifyr-software)**
-  Cloud endpoints, API interactions, security.
+- **[Software](https://github.com/Bushido3403/nodifyr-software)** - Cloud endpoints, API interactions, security.
 
-- **Documentation (You are here!)**
-  Architecture, interfaces, decisions (ADRs), measurements, and devlogs.
+- **Documentation (You are here!)** - Architecture, interfaces, decisions (ADRs), measurements, and devlogs.
 
 This documentation site serves as the **source of truth** tying all of that together.
 
