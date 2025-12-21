@@ -24,8 +24,6 @@ From there, you can explore:
 - measurements, testing notes, and known issues I discover
 - devlogs on my ongoing progress
 
----
-
 ## About this site
 
 I made this website using **Material for MkDocs** and it's built directly from Markdown files in my `nodifyr` [GitHub repository](https://github.com/Bushido3403/nodifyr).

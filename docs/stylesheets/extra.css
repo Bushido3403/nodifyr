@@ -1,9 +1,9 @@
-/* Nodifyr */
+/* Nodifyr*/
 
 :root {
   --md-default-fg-color: rgba(255, 255, 255, 0.92);
-  --md-default-fg-color--light: rgba(255, 255, 255, 0.70);
-  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.70);
+  --md-default-fg-color--light: rgb(255, 255, 255);
+  --md-default-fg-color--lighter: rgb(255, 255, 255);
 
   --md-default-bg-color: #0b0c0f;
   --md-code-bg-color: #11131a;
