@@ -12,10 +12,12 @@ Keep in mind, this is not a finished product (yet), it's a transparent build pro
 
 ## Where should you start?
 
-If you're new, start with **What is Nodifyr?**  
+If you're new, start with **What is Nodifyr?**.
+
 That page explains my motivation behind the project, its long-term direction, and the kind of problems I aim to solve.
 
 From there, you can explore:
+
 - system architecture and interfaces
 - board-specific documentation and revisions
 - design decisions and tradeoffs
@@ -26,7 +28,7 @@ From there, you can explore:
 
 ## About this site
 
-I made this website using **Material for MkDocs** and it's built directly from Markdown files in my `nodifyr` GitHub repository.
+I made this website using **Material for MkDocs** and it's built directly from Markdown files in my `nodifyr` [GitHub repository](https://github.com/Bushido3403/nodifyr).
 
 My goal is durability and accuracy:
 - documentation lives alongside the project itself
