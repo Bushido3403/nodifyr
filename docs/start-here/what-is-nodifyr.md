@@ -122,9 +122,11 @@ Nothing here should be treated as final.
 
 ## Where to go next
 
-Currently the only documentation page I have filled out is the latest devlog:
+Check out the current board I'm working on!
 
-[2025-12-20](https://docs.nodifyr.io/devlog/2025-12-20-revA-schematic-checkpoint/)
+- [S3 Dev Board - Rev A](https://docs.nodifyr.io/boards/nodifyr-s3-devboard/revA/overview/)
+    - [Power Tree Flowchart](https://docs.nodifyr.io/boards/nodifyr-s3-devboard/revA/power-tree/)
+    - [2025-12-20 Devlog](https://docs.nodifyr.io/devlog/2025-12-20-revA-schematic-checkpoint/)
 
 This project will change.  
 The documentation will change with it :)
