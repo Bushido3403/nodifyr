@@ -28,7 +28,7 @@ The goal of this revision is to establish a starting point for continued develop
 
 ---
 
-The [https://github.com/Bushido3403/nodifyr-hardware](`nodifyr-hardware`) repository currently contains:
+The [`nodifyr-hardware`](https://github.com/Bushido3403/nodifyr-hardware) repository currently contains:
 
 - Altium Designer 26 **project file**
 - **Schematic document**

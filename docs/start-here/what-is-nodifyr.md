@@ -69,13 +69,13 @@ While the implementation is still evolving, Nodifyr is guided by a few consisten
 
 Nodifyr is split into multiple repositories and documentation sections, roughly along these lines:
 
-- **[https://github.com/Bushido3403/nodifyr-hardware](Hardware)**
+- **[Hardware](https://github.com/Bushido3403/nodifyr-hardware)**
   - Board designs, schematics, revisions, and electrical rules.
 
-- **[https://github.com/Bushido3403/nodifyr-firmware](Firmware)**
+- **[Firmware](https://github.com/Bushido3403/nodifyr-firmware)**
   - Embedded code, system behavior, and on-chip logic.
 
-- **[https://github.com/Bushido3403/nodifyr-software](Software)**
+- **[Software](https://github.com/Bushido3403/nodifyr-software)**
   - Cloud endpoints, API interactions, security.
 
 - **Documentation (You are here!)**
