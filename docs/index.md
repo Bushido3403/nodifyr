@@ -12,7 +12,7 @@ Keep in mind, this is not a finished product (yet), it's a transparent build pro
 
 ## Where should you start?
 
-If you're new, start with **[What is Nodifyr?](https://docs.nodifyr.io/start-here/what-is-nodifyr/)**.
+If you're new, start with **[What is Nodifyr?](https://docs.nodifyr.io/start-here/what-is-nodifyr/)**
 
 That page explains my motivation behind the project, its long-term direction, and the kind of problems I aim to solve.
 
