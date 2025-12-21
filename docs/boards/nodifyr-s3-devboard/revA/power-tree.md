@@ -1,4 +1,4 @@
-``` mermaid
+```mermaid
 flowchart TD
   %% Sources
   USB[USB-C 5V (VBUS)] --> DUSB[Ideal Diode (USB path)]
