@@ -15,6 +15,6 @@ flowchart TD
 
   %% Loads
   V3V3 --> MCU[ESP32-S3 Module]
-  V3V3 --> PERIPH[Peripherals / Headers]
+  V3V3 --> PERIPH[Peripherals & Headers]
   V3V3 --> ACC[Accessories]
 ```
