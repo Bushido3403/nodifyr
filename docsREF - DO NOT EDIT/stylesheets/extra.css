@@ -1,0 +1,77 @@
+/* Nodifyr*/
+
+:root {
+  --md-default-fg-color: rgba(255, 255, 255, 0.92);
+  --md-default-fg-color--light: rgb(255, 255, 255);
+  --md-default-fg-color--lighter: rgb(255, 255, 255);
+
+  --md-default-bg-color: #0b0c0f;
+  --md-code-bg-color: #11131a;
+
+  --md-typeset-a-color: rgba(255, 255, 255, 0.88);
+}
+
+.md-header {
+  backdrop-filter: blur(10px);
+  background: rgba(11, 12, 15, 0.85) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.md-sidebar {
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.md-grid {
+  max-width: 1200px;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+.md-typeset pre > code {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Override Material's slate scheme vars (more specific than :root) */
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color: rgba(255, 255, 255, 0.92);
+  --md-default-fg-color--light: rgba(255, 255, 255, 0.80);
+  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.70);
+  --md-typeset-color: rgba(255, 255, 255, 0.92);
+}
+
+/* Centered button group styling */
+.button-group {
+  text-align: center;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button-group .md-button {
+  margin: 0.5rem;
+}
+
+/* CTA emphasis styling */
+.cta-block {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.cta-block .md-button {
+  margin-top: 1rem;
+}

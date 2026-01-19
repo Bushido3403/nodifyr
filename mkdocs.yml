@@ -71,36 +71,28 @@ nav:
   - Founders Program: founders-program.md
   - Start Here:
       - What is Nodifyr?: start-here/what-is-nodifyr.md
-      - Month 2 Checkpoints: start-here/month-2-checkpoints.md
       - Roadmap: start-here/roadmap.md
       - Repo Map: start-here/repo-map.md
   - About:
-      - Philosophy: about/philosophy.md
+      - Author: about/author.md
   - Architecture:
       - System Overview: architecture/system-overview.md
       - Hub vs Node: architecture/hub-vs-node.md
       - Locked Contract: architecture/locked-contract.md
   - Interfaces:
-      - Module Port Spec: interfaces/module-port-spec.md
+      - Module Port Spec: interfaces/module-port.md
       - Accessory ID Spec: interfaces/accessory-id-spec.md
-      - Electrical Rules: interfaces/electrical-rules.md
+      - BLE Hub Spec: interfaces/cloud-api-spec.md
   - Boards:
       - Nodifyr S3 Dev Board:
-          - Rev A Overview: boards/nodifyr-s3-devboard/revA/overview.md
-          - Power Tree: boards/nodifyr-s3-devboard/revA/power-tree.md
-          - Pinmap: boards/nodifyr-s3-devboard/revA/pinmap.md
-          - Known Issues: boards/nodifyr-s3-devboard/revA/known-issues.md
+          - Overview: boards/nodifyr-s3-devboard/revA/overview.md
   - Projects:
-      - Solar Beacon v1:
-          - Overview: projects/solar-beacon-v1/overview.md
-          - Power Path: projects/solar-beacon-v1/power-path.md
-          - Packet Spec: projects/solar-beacon-v1/packet-spec.md
-          - Measurement Plan: projects/solar-beacon-v1/measurement-plan.md
+      - Ambient Beacon v1:
+          - Overview: projects/ambient-beacon-v1/overview.md
   - Engineering:
-      - Decisions (ADRs): engineering/decisions/adr-0001-esp32-s3-choice.md
+      - Decisions (ADRs): engineering/decisions/example.md
   - Testing:
       - Bring-up Checklist: testing/bringup-checklist.md
       - Measurements: testing/measurements.md
   - Devlog:
-      - 2025-12-20: devlog/2025-12-20-revA-schematic-checkpoint.md
-  
+      - 1999-1-30: devlog/example.md
