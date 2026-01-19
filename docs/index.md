@@ -1,4 +1,9 @@
-# Nodifyr Docs
+# Nodifyr
+
+Measured, portfolio-grade embedded systems — focused on **ultra-low-power**.
+
+[Start here: Solar Beacon v1](projects/solar-beacon-v1/overview.md){ .md-button .md-button--primary }
+[Docs philosophy](about/philosophy.md){ .md-button }
 
 ---
 
@@ -9,6 +14,24 @@ This site contains the official documentation for **Nodifyr**, an ongoing open-s
 I fully intend to develop Nodifyr as open-source as I can, and this documentation serves as a living record of its architecture, design decisions, hardware revisions, experiments, and lessons learned over time.
 
 Keep in mind, this is not a finished product (yet), it's a transparent build process.
+
+---
+
+## Active project
+### Solar Beacon v1 (nRF54)
+A palm-sized BLE sensor beacon powered by **solar + storage**, with a **coin-cell backup**. Built around repeatable power measurements and a paid implementation pack.
+
+**Quick links**
+- [Overview](projects/solar-beacon-v1/overview.md)
+- [Power path](projects/solar-beacon-v1/power-path.md)
+- [Packet spec](projects/solar-beacon-v1/packet-spec.md)
+- [Measurement plan](projects/solar-beacon-v1/measurement-plan.md)
+
+---
+
+## What Nodifyr ships
+- **Free:** architecture + measurements + lessons learned (the proof)
+- **Paid:** implementation-ready template packs (the leverage)
 
 ## Where should you start?
 

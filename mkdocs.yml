@@ -70,6 +70,8 @@ nav:
       - What is Nodifyr?: start-here/what-is-nodifyr.md
       - Roadmap: start-here/roadmap.md
       - Repo Map: start-here/repo-map.md
+  - About:
+      - Philosophy: about/philosophy.md
   - Architecture:
       - System Overview: architecture/system-overview.md
       - Hub vs Node: architecture/hub-vs-node.md
@@ -83,6 +85,12 @@ nav:
           - Power Tree: boards/nodifyr-s3-devboard/revA/power-tree.md
           - Pinmap: boards/nodifyr-s3-devboard/revA/pinmap.md
           - Known Issues: boards/nodifyr-s3-devboard/revA/known-issues.md
+  - Projects:
+      - Solar Beacon v1:
+          - Overview: projects/solar-beacon-v1/overview.md
+          - Power Path: projects/solar-beacon-v1/power-path.md
+          - Packet Spec: projects/solar-beacon-v1/packet-spec.md
+          - Measurement Plan: projects/solar-beacon-v1/measurement-plan.md
   - Engineering:
       - Decisions (ADRs): engineering/decisions/adr-0001-esp32-s3-choice.md
   - Testing:
