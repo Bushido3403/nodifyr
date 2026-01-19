@@ -1,41 +1,112 @@
 # Solar Beacon v1 (nRF54)
 
-A palm-sized **BLE sensor beacon** powered by **solar + storage** with a **coin-cell backup**. It wakes on a schedule, samples one or two sensors, broadcasts a compact packet, then returns to deep sleep.
+A palm-sized **BLE sensor beacon** powered by **solar + storage** with a **coin-cell backup**. It wakes on a schedule, samples one sensor, broadcasts a compact packet, then returns to deep sleep.
 
-This project is designed around **measured power** and **repeatable methods**, not vibes.
-
----
-
-## Why this is the flagship
-
-This is the **differentiated product**. Here's why it's the right choice for revenue + portfolio in 10 months:
-
-**It's more differentiated.**
-"ESP32 dev board with Li-ion + USB-C charging" is useful, but it's also crowded. People compare you to a million existing boards. "Solar-powered BLE beacon with measured nanoamp sleep currents and real energy-harvesting validation" is rare and sticky.
-
-**It matches the strongest edge.**
-Ultra-low-power architecture + power-path switching + energy harvesting + quiescent current optimization. That's the stuff engineers will follow and pay for. This product showcases those skills.
-
-**It naturally creates a paid Template Pack.**
-Power-path design + harvesting strategy + sleep current choices + test procedure = high-value implementation assets. People will pay for this.
-
-**The scope is tight.**
-BLE-only beacon with a defined duty cycle is finishable during a heavy semester. Wi-Fi + cloud + dev board ecosystem is not.
+Built on **measured power** and **repeatable methods**, not vibes.
 
 ---
 
-## Goals (v1)
-- BLE-only beacon (advertising burst, no app required to prove functionality)
-- Solar input with storage (supercap) and coin-cell backup
-- Timed wake from deep sleep
-- Real measurements: sleep current, wake energy, TX energy, charge balance
-- Template Pack v1 that someone else can actually build and modify
+## The mantra
 
-## Non-goals (v1)
-- Nodifyr Cloud™ (dashboards, accounts, databases)
-- Custom mobile app (phone can be generic BLE scanner/logger)
-- Multi-sensor expansion beyond bring-up set
-- Multiple beacon MCU variants (nRF52 "budget beacon" is later, not now)
+**One sensor + one payload + one measurement path.**
+
+Everything optional is DNP by default. This is how you finish on time.
+
+---
+
+## Locked pieces (don't change these)
+
+These two things prevent rewrites later. Lock them early.
+
+**[Packet spec](packet-spec.md)** — Versioned BLE payload format
+- Sensor readings
+- Battery/energy status
+- Timestamp (or not)
+- Reserve bytes for future sensors
+
+Once shipped, this stays stable. New fields go in reserved slots.
+
+**[Measurement methodology](measurement-plan.md)** — How to measure
+- Sleep current (equipment, settings, procedure)
+- Wake energy (time + current profile)
+- Charge balance (solar input, average consumption)
+- Cold start behavior
+
+Document the method once. Then ship results continuously.
+
+---
+
+## Everything else evolves
+
+Part numbers → change
+Power-path details → evolve
+Firmware → iterate
+Layout → revise
+
+But packet format + measurement format stay stable.
+
+---
+
+## v1 scope
+
+### Hardware
+**Core**
+- nRF54 + BLE antenna
+- Solar input → supercap + coin-cell backup (ideal diode OR-ing)
+- **One sensor** populated by default (temp/humidity)
+- Current measurement headers (for bring-up)
+
+**Optional (DNP by default)**
+- Light sensor (skip for v1)
+- Battery voltage measurement (skip for v1)
+- Anything else (skip for v1)
+
+### Firmware
+- Simple cycle: sleep → wake → sample → encode → advertise → sleep
+- One sensor read per cycle
+- Configurable interval + one sensor enable flag
+- Power states documented with measured numbers
+
+### What's NOT v1
+- Nodifyr Cloud™
+- Custom mobile app
+- Multi-sensor expansion
+- Wireless config or OTA updates
+- Anything that adds debug surface area
+
+---
+
+## What ships
+
+### Free (proof)
+- Architecture + block diagram
+- Power-path explanation + design rationale
+- **[Packet spec](packet-spec.md)** (locked)
+- **[Measurement methodology](measurement-plan.md)** (locked)
+- Real measured numbers (sleep, wake, TX, charge balance)
+- Design decisions + tradeoffs
+- "What went wrong" logs and revisions
+
+### Paid — Template Pack v1
+- Altium project + manufacturing outputs
+- BOM with alternates + quiescent-current callouts
+- Bring-up + validation checklist
+- Firmware skeleton (packet + sensor + sleep cycle)
+- Porting guide (swap sensor / change interval / change panel)
+
+---
+
+## Status
+
+- [x] Strategic direction locked
+- [x] BLE PoC validated
+- [ ] Packet spec v1 finalized (LOCKED)
+- [ ] Measurement methodology documented (LOCKED)
+- [ ] First baseline numbers captured
+- [ ] Hardware bring-up complete
+- [ ] Template Pack v1 ready
+
+Once these are locked, everything else is iteration.
 
 ---
 

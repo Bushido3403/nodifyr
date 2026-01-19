@@ -41,6 +41,16 @@ Nodifyr exists to do it differently:
 
 ---
 
+## Ready to build?
+
+**Template Pack v1** (Altium + firmware + validation checklist) launches **March 2026**.
+
+$99 one-time. Or join the **Founders Program** for early access at $69.
+
+[Get notified →](https://nodifyr.io/waitlist){ .md-button .md-button--primary } [Founders Program →](../founders-program.md){ .md-button }
+
+---
+
 ## What Nodifyr is (and is not)
 
 ### Nodifyr *is*:

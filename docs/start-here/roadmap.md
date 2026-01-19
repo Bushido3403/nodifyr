@@ -103,15 +103,17 @@ The ESP32-S3 board is valuable — but it's better as:
 
 ## Current status (as of Jan 2026)
 
-- [x] Strategic direction set (beacon is flagship)
-- [x] BLE PoC validated on nRF board
+**Critical path (lock these FIRST — everything else depends on these):**
+- [ ] **Packet spec v1 finalized + LOCKED** (BLE payload format)
+- [ ] **Measurement methodology documented + LOCKED** (test procedure, equipment, data format)
+
+**Then everything else (these can evolve without breaking shipped content):**
+- [ ] First baseline power measurements (using locked methodology)
 - [ ] Beacon schematic finalized
-- [ ] First baseline power measurements captured
-- [ ] Packet format v1 published
-- [ ] Measurement plan documented
-- [ ] Template Pack v1 outline defined
-- [ ] Beacon v1 hardware ordered
-- [ ] Beacon v1 bring-up complete
-- [ ] Template Pack v1 packaged and ready to sell
+- [ ] Hardware bring-up complete
+- [ ] Template Pack v1 ready to sell
+
+**Why lock spec + methodology first:**
+Once these are stable, changes to schematic/firmware/layout don't invalidate measurements or shipped hardware. You can iterate without rewrites.
 
 Once beacon v1 ships, we move to Stage B (gateway).

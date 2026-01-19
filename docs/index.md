@@ -8,72 +8,109 @@ Measured, portfolio-grade embedded systems — focused on **ultra-low-power**.
 
 ---
 
-## Welcome
+## The one-minute version
 
-This site documents **Nodifyr**, an ongoing open-source IoT project developed by me, Kyle Buchanan.
+I'm building a **solar-powered BLE sensor beacon** with real measurements, real power numbers, and a template pack you can buy.
 
-I'm building this as openly as I can, and this documentation is a living record of architecture, design decisions, hardware revisions, experiments, and lessons learned along the way.
+Not vaporware. Not promises. Measured data, open schematics, and implementation files.
 
-Keep in mind, this is not a finished product (yet), it's a transparent build process.
+**The funnel:**
+1. **Proof you can trust this** — measured sleep current, energy budgets, real test methodology
+2. **Proof the approach works** — live measurements, charge balance behavior, cold-start validation
+3. **Ready to build?** — paid Template Pack with Altium project, firmware skeleton, bring-up checklist
+
+---
+
+## Month 2 checkpoints (what "on track" looks like)
+
+If this is working, you'll see:
+
+- [x] Coherent project narrative (not scattered pages)
+- [ ] First baseline measurements published (even if rough)
+- [x] Stable packet format (LOCKED)
+- [ ] Waitlist collecting emails
+- [x] Clear Template Pack v1 outline (people can see what they'll pay for)
+
+Every page = deliverable. Every measurement = content. Every revision = legitimacy.
+
+---
+
+## What you get
+
+### Free (right now)
+- Architecture + block diagrams (solar + supercap + coin-cell)
+- Measurement methodology (how we measure, what we measure)
+- Energy budget calculations (duty cycle → average current → viability)
+- Live proof posts (sleep currents, charge behavior)
+- Design decisions + tradeoffs
+
+### Paid — Template Pack v1 (coming soon)
+- Altium project + schematic + layout
+- BOM with alternates + quiescent current callouts
+- Firmware skeleton (packet structure, sensor read, sleep cycle)
+- Bring-up + validation checklist
+- Porting guide (swap sensor, change interval, change panel)
+- **One-time purchase, build as many as you want**
+- **$99 — [Full details](template-pack-v1.md)**
+
+<div style="text-align: center; margin: 2em 0;">
+  <a href="https://nodifyr.io/waitlist" class="md-button md-button--primary" style="margin: 0.5em;">Get notified when it launches</a>
+</div>
+
+---
+
+## Where to start
+
+**"Should I trust this?"**
+→ [What is Nodifyr?](start-here/what-is-nodifyr.md) + [Measurement plan](projects/solar-beacon-v1/measurement-plan.md)
+
+**"What's the current project?"**
+→ [Solar Beacon v1 Overview](projects/solar-beacon-v1/overview.md) + [Roadmap](start-here/roadmap.md)
+
+**"Show me the measurements"**
+→ [Measurement results](projects/solar-beacon-v1/measurement-plan.md) + [Real numbers](testing/measurements.md)
+
+**"I want the pack"**
+→ Join the waitlist (coming soon)
 
 ---
 
 ## The flagship: Solar Beacon v1 (nRF54)
-A palm-sized **solar + coin-cell** BLE sensor beacon that actually balances energy — with real measurements and a template pack you can build from.
 
-This is the **differentiated product**. Ultra-low-power architecture, power-path switching, and energy harvesting done right. It's tight scope, finishable, and creates a high-value implementation pack.
+A palm-sized **solar + coin-cell** BLE sensor beacon that actually balances energy. Built on measured power, repeatable methods, tight scope.
+
+**Why this one?**
+- It's rare (solar + harvesting + real measurements)
+- It shows real engineering (power-path, quiescent current, energy budgets)
+- It's finishable (BLE-only, tight scope)
+- It creates a high-value template pack
 
 **Quick links**
-- [Overview](projects/solar-beacon-v1/overview.md)
-- [Power path](projects/solar-beacon-v1/power-path.md)
-- [Packet spec](projects/solar-beacon-v1/packet-spec.md)
-- [Measurement plan](projects/solar-beacon-v1/measurement-plan.md)
+- [Overview & goals](projects/solar-beacon-v1/overview.md)
+- [Power path design](projects/solar-beacon-v1/power-path.md)
+- [Packet spec (locked)](projects/solar-beacon-v1/packet-spec.md)
+- [Measurement methodology (locked)](projects/solar-beacon-v1/measurement-plan.md)
 
 ---
 
-## The hub: ESP32-S3 Dev Board (later)
-A mains-powered gateway/hub reference that receives BLE packets and forwards via Wi-Fi. Clean power-path design with USB-C charging and backup battery.
+## The hub: ESP32-S3 Gateway (later)
 
-This comes **after the beacon v1 ships**. It's useful, but "ESP32 dev board with charging" is crowded territory. The beacon is where we differentiate.
+Mains-powered receiver that bridges BLE → Wi-Fi. Shipped **after beacon v1** as the second product.
 
----
-
-## What Nodifyr ships
-- **Free:** architecture + measurements + lessons learned (the proof)
-- **Paid:** implementation-ready template packs (the leverage)
-
-## Where should you start?
-
-If you're new, start with **[What is Nodifyr?](https://docs.nodifyr.io/start-here/what-is-nodifyr/)**
-
-That page explains my motivation behind the project, its long-term direction, and the kind of problems I aim to solve.
-
-From there, you can explore:
-
-- system architecture and interfaces
-- board-specific documentation and revisions
-- design decisions and tradeoffs
-- measurements, testing notes, and known issues I discover
-- devlogs on my ongoing progress
-
-## About this site
-
-I made this website using **Material for MkDocs** and it's built directly from Markdown files in my `nodifyr` [GitHub repository](https://github.com/Bushido3403/nodifyr).
-
-My goal in documentation is durability and accuracy:
-
-- documentation lives alongside the project itself
-- changes are versioned
-- assumptions and unknowns are tracked for future reference
-- everything lives as context for future development
-
-This page is intended to be a source of truth for the project, not a marketing page.
+Not the focus right now. The beacon is the flagship.
 
 ---
 
-### P.S.
+## Philosophy
 
-Where things are unfinished, uncertain, or untested, I will do my best to state that explicitly.
+**Measured, not vibes.**
+If it's not measured, it's labeled TBD. Real sleep currents, real charge balance, real energy budgets.
+
+**Tight scope, finishable.**
+One sensor, one payload, one measurement path. Everything else is DNP by default.
+
+**Free proof, paid leverage.**
+Architecture + measurements are free. Implementation files are paid.
 
 ---
 

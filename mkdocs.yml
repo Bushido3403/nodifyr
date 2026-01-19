@@ -67,8 +67,11 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Template Pack v1: template-pack-v1.md
+  - Founders Program: founders-program.md
   - Start Here:
       - What is Nodifyr?: start-here/what-is-nodifyr.md
+      - Month 2 Checkpoints: start-here/month-2-checkpoints.md
       - Roadmap: start-here/roadmap.md
       - Repo Map: start-here/repo-map.md
   - About:
@@ -76,6 +79,7 @@ nav:
   - Architecture:
       - System Overview: architecture/system-overview.md
       - Hub vs Node: architecture/hub-vs-node.md
+      - Locked Contract: architecture/locked-contract.md
   - Interfaces:
       - Module Port Spec: interfaces/module-port-spec.md
       - Accessory ID Spec: interfaces/accessory-id-spec.md

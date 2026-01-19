@@ -61,3 +61,17 @@
 .button-group .md-button {
   margin: 0.5rem;
 }
+
+/* CTA emphasis styling */
+.cta-block {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.cta-block .md-button {
+  margin-top: 1rem;
+}
