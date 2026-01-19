@@ -1,24 +1,28 @@
-# Nodifyr Docs
+# Nodifyr System Documentation
 
-> Open, portfolio-grade IoT ecosystem docs: architecture, interfaces, boards, and test data.
+<p class="subtitle">Open hardware IoT platform — architecture, interfaces, boards, and verified test data.</p>
 
-## Quick links
+---
+
+!!! note ""
+    This documentation is under active development.
 
 <div class="grid cards" markdown>
 
-- :material-rocket-launch: **Start Here**
-  - Getting oriented + how the repos fit together.
+- :material-rocket-launch: **[Start Here](start-here/what-is-nodifyr.md)**
+  
+    Getting oriented + how the repos fit together.
 
-- :material-sitemap: **System Overview**
-  - Hub vs Node, contracts, message flow.
+- :material-sitemap: **[System Overview](architecture/system-overview.md)**
+  
+    Hub vs Node, contracts, message flow.
 
-- :material-developer-board: **Nodifyr S3 Dev Board**
-  - Power, bring-up, measurements.
+- :material-developer-board: **[Nodifyr S3 Dev Board](boards/nodifyr-s3-devboard/revA/overview.md)**
+  
+    Power, bring-up, measurements.
 
-- :material-file-document-outline: **ADRs**
-  - Engineering decisions + tradeoffs.
+- :material-file-document-outline: **[ADRs](engineering/decisions/example.md)**
+  
+    Engineering decisions + tradeoffs.
 
 </div>
-
-!!! info "Status"
-    Docs are actively being built. Anything tagged **Stable** is safe to follow; everything else is “in progress”.

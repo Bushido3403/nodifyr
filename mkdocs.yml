@@ -35,9 +35,11 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
     - navigation.indexes
+    - toc.integrate
     - toc.follow
     - content.code.copy
     - content.code.annotate

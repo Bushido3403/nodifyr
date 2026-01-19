@@ -22,7 +22,30 @@
 }
 
 .md-grid {
-  max-width: 1200px;
+  max-width: 1440px;
+}
+
+/* Product-style subtitle */
+.subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Cleaner tab styling */
+.md-tabs {
+  background: transparent;
+}
+
+/* Reduce sidebar visual weight */
+.md-sidebar--primary {
+  opacity: 0.9;
+}
+
+.md-nav--primary .md-nav__title {
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .md-typeset a:hover {
