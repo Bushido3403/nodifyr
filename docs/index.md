@@ -2,12 +2,9 @@
 
 Measured, portfolio-grade embedded systems — focused on **ultra-low-power**.
 
-<div style="text-align: center; margin: 2em 0; display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
-
 [Start here: Solar Beacon v1](projects/solar-beacon-v1/overview.md){ .md-button .md-button--primary }
 [Docs philosophy](about/philosophy.md){ .md-button }
-
-</div>
+{: .button-group }
 
 ---
 
